@@ -24,26 +24,26 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += \
-        main.cpp \
-        mainwindow.cpp \
-    gotodialog.cpp \
-    finddialog.cpp \
-    replacedialog.cpp \
-    aboutdialog.cpp
+    src/main.cpp \
+    src/mainwindow.cpp \
+    src/gotodialog.cpp \
+    src/finddialog.cpp \
+    src/replacedialog.cpp \
+    src/aboutdialog.cpp
 
 HEADERS += \
-        mainwindow.h \
-    gotodialog.h \
-    finddialog.h \
-    replacedialog.h \
-    aboutdialog.h
+    src/mainwindow.h \
+    src/gotodialog.h \
+    src/finddialog.h \
+    src/replacedialog.h \
+    src/aboutdialog.h
 
 FORMS += \
-        mainwindow.ui \
-    gotodialog.ui \
-    finddialog.ui \
-    replacedialog.ui \
-    aboutdialog.ui
+    ui/mainwindow.ui \
+    ui/gotodialog.ui \
+    ui/finddialog.ui \
+    ui/replacedialog.ui \
+    ui/aboutdialog.ui
 
 RC_FILE = app.rc
 
