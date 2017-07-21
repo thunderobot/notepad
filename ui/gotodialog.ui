@@ -26,9 +26,8 @@
    <string>Dialog</string>
   </property>
   <property name="windowIcon">
-   <iconset>
-    <normalon>:/app.ico</normalon>
-   </iconset>
+   <iconset resource="../images.qrc">
+    <normaloff>:/data/app.ico</normaloff>:/data/app.ico</iconset>
   </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
@@ -89,6 +88,8 @@
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="../images.qrc"/>
+ </resources>
  <connections/>
 </ui>

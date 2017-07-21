@@ -1,6 +1,7 @@
 <RCC>
     <qresource prefix="/">
-        <file>app.ico</file>
-        <file>auto_line.png</file>
+        <file>data/app.ico</file>
+        <file>data/auto_line.png</file>
+        <file>data/notepad.png</file>
     </qresource>
 </RCC>

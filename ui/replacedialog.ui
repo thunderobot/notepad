@@ -26,9 +26,8 @@
    <string>Dialog</string>
   </property>
   <property name="windowIcon">
-   <iconset>
-    <disabledoff>:/app.ico</disabledoff>
-   </iconset>
+   <iconset resource="../images.qrc">
+    <normaloff>:/data/app.ico</normaloff>:/data/app.ico</iconset>
   </property>
   <widget class="QPushButton" name="findButton">
    <property name="enabled">
@@ -151,6 +150,8 @@
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="../images.qrc"/>
+ </resources>
  <connections/>
 </ui>
