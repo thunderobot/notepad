@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Notepad Editor
+GenericName=Notepad Editor
+Comment=Notepad Editor
+Name[zh_CN]=Notepad 记事本
+Comment[zh_CN]=Notepad 记事本
+Icon=notepad
+Exec=notepad
+Terminal=false
+Type=Application
+Categories=Qt;Editor;
+
+

@@ -50,3 +50,14 @@ RC_FILE = app.rc
 RESOURCES += \
     images.qrc \
     qm.qrc
+
+target.files = notepad
+target.path = /usr/bin/
+
+icons.files += data/notepad.png
+icons.path = /usr/share/icons/hicolor/scalable/apps
+
+desktop.files += data/notepad.desktop
+desktop.path = /usr/share/applications/
+
+INSTALLS += target icons desktop
